@@ -424,4 +424,5 @@ st.markdown(
     <div style="text-align: center; color: #8C8077; font-size: 12px; padding: 12px 0;">
         © 2026 Sovereign Cross Stitch Studio • Authentic DMC Floss Standard • Ready for Replit
     </div>
-    """,
+    """, unsafe_allow_html=True,
+)
