@@ -425,4 +425,3 @@ st.markdown(
         © 2026 Sovereign Cross Stitch Studio • Authentic DMC Floss Standard • Ready for Replit
     </div>
     """,
-  
