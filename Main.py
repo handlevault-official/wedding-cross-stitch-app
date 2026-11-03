@@ -582,8 +582,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/StitchViewer.tsx
 check_circle
 build
