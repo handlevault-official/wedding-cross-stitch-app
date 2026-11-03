@@ -830,3 +830,5 @@ src/App.tsx
 check_circl
 if __name__ == "__main__":
   pass  #
+st.write("---")
+st.caption("App setup completed.")
