@@ -52,7 +52,6 @@ summarize_auto
 chevron_right
 
 download
-Installed 3 packages
 edit
 Edited 15 files
 metadata.json
@@ -88,11 +87,9 @@ check_circle
 build
 Built
 # Create a calculator within the app that determines the final stitched dimensions of the cross stitch pattern.
-Gemini 3.8 Flash
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -350,7 +347,6 @@ summarize_auto
 chevron_right
 
 download
-Installed 1 package
 edit
 Edited 2 files
 src/components/DailyStitchTrendChart.tsx
@@ -507,7 +503,6 @@ summarize_auto
 chevron_right
 
 download
-Installed 2 packages
 edit
 Edited 3 files
 src/utils/gifEncoder.ts
