@@ -1,5 +1,52 @@
-Sovereign Cross Stitch Generator - Wedding Edition
-import streamlit as stimport osfrom PIL import Imageimport mathimport random# --- PAGE CONFIGURATION ---st.set_page_config(page_title="Sovereign Cross Stitch Generator - Wedding Edition", page_icon="🧵", layout="centered")# --- SESSION STATE INITIALIZATION ---if "purchased_patterns" not in st.session_state: st.session_state["purchased_patterns"] = []# --- APP BRANDING ---st.markdown("# 🧵 Sovereign Cross Stitch Generator")st.markdown("### Wedding & Heirloom Edition (Commercial PDF Pattern Creator)")st.caption("Gawing professional multi-page cross-stitch pattern ang iyong wedding photos at designs!")# --- SIDEBAR: PRICING & COMMERCIAL UPGRADE ---with st.sidebar: st.header("💎 Commercial Licensing & Pricing") st.info("📦 Free Tier: Preview at 1-Page Sample Grid.\n\n🌟 PRO Wedding Bundle (₱499): Unlimited High-Res Multi-Page PDF Patterns + Full DMC Legend & 10x10 Grid Tiling.") if st.button("💳 Bumili ng Pro License (₱499 via GCash)"): st.session_state["show_checkout"] = True if st.session_state.get("show_checkout", False): st.warning("Magpadala ng ₱499 sa GCash: 09288212987") ref_input = st.text_input("Ilagay ang GCash Reference Number:") if st.button("I-verify ang Bayad"): if ref_input: st.session_state["purchased_patterns"].append("PRO_LIFETIME") st.session_state["show_checkout"] = False st.success("🎉 Tagumpay! Na-activate na ang iyong PRO Wedding License.") st.rerun() else: st.error("Paki-lagay ang reference number.") if "PRO_LIFETIME" in st.session_state["purchased_patterns"]: st.success("✅ PRO License Active")# --- MAIN APP: UPLOAD & CONFIGURATION ---st.markdown("---")st.subheader("1️⃣ Mag-upload o Pumili ng Wedding Design")upload_option = st.radio("Pumili ng paraan:", ["Mag-upload ng Wedding Photo", "Pumili mula sa Sample Wedding Templates"])selected_design_name = "Custom Wedding Upload"if upload_option == "Mag-upload ng Wedding Photo": uploaded_file = st.file_uploader("I-upload ang litrato (JPG, PNG)", type=["jpg", "jpeg", "png"]) if uploaded_file is not None: image = Image.open(uploaded_file) st.image(image, caption="Na-upload na Litrato", width=300)else: template_choice = st.selectbox("Pumili ng Template:", [ "Classic Wedding Rings & Florals (300x450 Stitches)", "Bridal Silhouette & Roses (200x300 Stitches)", "Mr & Mrs Floral Monogram (150x150 Stitches)" ]) selected_design_name = template_choicest.markdown("---")st.subheader("2️⃣ Pattern Specifications (1-Year Heirloom Scale)")col1, col2 = st.columns(2)with col1: grid_size = st.selectbox("Grid / Stitch Dimensions:", ["300 x 450 (1-Year Masterpiece)", "200 x 300 (Large Tapestry)", "150 x 150 (Medium Project)"])with col2: fabric_count = st.selectbox("AIDA Cloth Count:", ["14 Count (Standard)", "16 Count", "18 Count (Fine Detail)"])# --- GENERATE & DOWNLOAD LOGIC ---st.markdown("---")if st.button("✨ Bumuo ng Professional PDF Pattern", type="primary"): with st.spinner("Binubuo ang DMC Thread Legend at Multi-Page Grid..."): # Simulation ng generation st.success("🎉 Tagumpay! Handa na ang iyong Wedding Cross Stitch Pattern.") # Display Mock Details st.markdown(f"### 📋 Pattern Summary: {selected_design_name}") st.markdown("- Total Colors: 24 DMC Palette Colors") st.markdown("- Estimated Threads: 18 Skeins (8m standard)") st.markdown("- Grid Format: Multi-Page Booklet (5 Pages with 10x10 Bold Markers)") # Check kung may PRO access para sa libreng download o kung bibili is_pro_unlocked = "PRO_LIFETIME" in st.session_state["purchased_patterns"] if is_pro_unlocked: st.download_button( label="📥 I-download ang Buong PRO PDF Pattern (Multi-Page)", data=b"Mock PDF Binary Data for Wedding Pattern", file_name="Wedding_Masterpiece_CrossStitch_Pattern.pdf", mime="application/pdf" ) else: # Free preview download button o prompt para magbayad st.info("💡 Na-generate ang Free Sample Preview (Page 1). Para ma-download ang buong Multi-Page PRO PDF, mag-upgrade sa sidebar (₱499).") st.download_button( label="📥 I-download ang Free Preview PDF", data=b"Mock Free Preview PDF Data", file_name="Wedding_Preview_Sample.pdf", mime="application/pdf" )
+import numpy as np
+from PIL import Image
+import streamlit as st
+
+st.set_page_config(
+    page_title="Sovereign Cross Stitch Generator", layout="wide"
+)
+
+st.title("💍 Sovereign Cross Stitch Generator - Wedding Edition")
+st.write(
+    "I-upload ang larawan para ma-convert sa cross-stitch pattern at grid."
+)
+
+# Sidebar para sa mga settings
+st.sidebar.header("Pattern Settings")
+grid_size = st.sidebar.slider("Grid Resolution (Size)", 20, 100, 50)
+threshold = st.sidebar.slider("Contrast Threshold", 0, 255, 128)
+
+# File uploader para sa larawan
+uploaded_file = st.file_uploader(
+    "Pumili ng Wedding Image (JPG/PNG)", type=["jpg", "jpeg", "png"]
+)
+
+if uploaded_file is not None:
+  # Buksan ang larawan gamit ang PIL
+  image = Image.open(uploaded_file)
+
+  col1, col2 = st.columns(2)
+
+  with col1:
+    st.subheader("Original Image")
+    st.image(image, use_column_width=True)
+
+  with col2:
+    st.subheader("Cross-Stitch Grid Preview")
+    # I-resize ang image base sa grid size
+    img_resized = image.resize((grid_size, grid_size)).convert("L")
+    img_array = np.array(img_resized)
+
+    # Gawing black and white grid
+    binary_grid = (img_array > threshold).astype(int)
+    st.write(binary_grid)
+
+  st.success("Na-load at na-process na ang pattern nang matagumpay!")
+else:
+  st.info(
+    "Mag-upload ng larawan sa itaas para magsimula ang pagbuo ng pattern."
+  )
+# import streamlit as stimport osfrom PIL import Imageimport mathimport random# --- PAGE CONFIGURATION ---st.set_page_config(page_title="Sovereign Cross Stitch Generator - Wedding Edition", page_icon="🧵", layout="centered")# --- SESSION STATE INITIALIZATION ---if "purchased_patterns" not in st.session_state: st.session_state["purchased_patterns"] = []# --- APP BRANDING ---st.markdown("# 🧵 Sovereign Cross Stitch Generator")st.markdown("### Wedding & Heirloom Edition (Commercial PDF Pattern Creator)")st.caption("Gawing professional multi-page cross-stitch pattern ang iyong wedding photos at designs!")# --- SIDEBAR: PRICING & COMMERCIAL UPGRADE ---with st.sidebar: st.header("💎 Commercial Licensing & Pricing") st.info("📦 Free Tier: Preview at 1-Page Sample Grid.\n\n🌟 PRO Wedding Bundle (₱499): Unlimited High-Res Multi-Page PDF Patterns + Full DMC Legend & 10x10 Grid Tiling.") if st.button("💳 Bumili ng Pro License (₱499 via GCash)"): st.session_state["show_checkout"] = True if st.session_state.get("show_checkout", False): st.warning("Magpadala ng ₱499 sa GCash: 09288212987") ref_input = st.text_input("Ilagay ang GCash Reference Number:") if st.button("I-verify ang Bayad"): if ref_input: st.session_state["purchased_patterns"].append("PRO_LIFETIME") st.session_state["show_checkout"] = False st.success("🎉 Tagumpay! Na-activate na ang iyong PRO Wedding License.") st.rerun() else: st.error("Paki-lagay ang reference number.") if "PRO_LIFETIME" in st.session_state["purchased_patterns"]: st.success("✅ PRO License Active")# --- MAIN APP: UPLOAD & CONFIGURATION ---st.markdown("---")st.subheader("1️⃣ Mag-upload o Pumili ng Wedding Design")upload_option = st.radio("Pumili ng paraan:", ["Mag-upload ng Wedding Photo", "Pumili mula sa Sample Wedding Templates"])selected_design_name = "Custom Wedding Upload"if upload_option == "Mag-upload ng Wedding Photo": uploaded_file = st.file_uploader("I-upload ang litrato (JPG, PNG)", type=["jpg", "jpeg", "png"]) if uploaded_file is not None: image = Image.open(uploaded_file) st.image(image, caption="Na-upload na Litrato", width=300)else: template_choice = st.selectbox("Pumili ng Template:", [ "Classic Wedding Rings & Florals (300x450 Stitches)", "Bridal Silhouette & Roses (200x300 Stitches)", "Mr & Mrs Floral Monogram (150x150 Stitches)" ]) selected_design_name = template_choicest.markdown("---")st.subheader("2️⃣ Pattern Specifications (1-Year Heirloom Scale)")col1, col2 = st.columns(2)with col1: grid_size = st.selectbox("Grid / Stitch Dimensions:", ["300 x 450 (1-Year Masterpiece)", "200 x 300 (Large Tapestry)", "150 x 150 (Medium Project)"])with col2: fabric_count = st.selectbox("AIDA Cloth Count:", ["14 Count (Standard)", "16 Count", "18 Count (Fine Detail)"])# --- GENERATE & DOWNLOAD LOGIC ---st.markdown("---")if st.button("✨ Bumuo ng Professional PDF Pattern", type="primary"): with st.spinner("Binubuo ang DMC Thread Legend at Multi-Page Grid..."): # Simulation ng generation st.success("🎉 Tagumpay! Handa na ang iyong Wedding Cross Stitch Pattern.") # Display Mock Details st.markdown(f"### 📋 Pattern Summary: {selected_design_name}") st.markdown("- Total Colors: 24 DMC Palette Colors") st.markdown("- Estimated Threads: 18 Skeins (8m standard)") st.markdown("- Grid Format: Multi-Page Booklet (5 Pages with 10x10 Bold Markers)") # Check kung may PRO access para sa libreng download o kung bibili is_pro_unlocked = "PRO_LIFETIME" in st.session_state["purchased_patterns"] if is_pro_unlocked: st.download_button( label="📥 I-download ang Buong PRO PDF Pattern (Multi-Page)", data=b"Mock PDF Binary Data for Wedding Pattern", file_name="Wedding_Masterpiece_CrossStitch_Pattern.pdf", mime="application/pdf" ) else: # Free preview download button o prompt para magbayad st.info("💡 Na-generate ang Free Sample Preview (Page 1). Para ma-download ang buong Multi-Page PRO PDF, mag-upgrade sa sidebar (₱499).") st.download_button( label="📥 I-download ang Free Preview PDF", data=b"Mock Free Preview PDF Data", file_name="Wedding_Preview_Sample.pdf", mime="application/pdf" )
 Gemini 3.8 Flash
 
 summarize_auto
