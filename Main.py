@@ -52,8 +52,6 @@ summarize_auto
 chevron_right
 
 download
-edit
-Edited 15 files
 metadata.json
 check_circle
 index.html
@@ -91,8 +89,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/FabricCalculator.tsx
 check_circle
 src/App.tsx
@@ -106,8 +102,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/FabricCalculator.tsx
 check_circle
 build
@@ -117,8 +111,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/StitchProgressTracker.tsx
 check_circle
 src/components/StitchViewer.tsx
@@ -132,8 +124,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/types.ts
 check_circle
 src/utils/colorMatcher.ts
@@ -149,8 +139,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/SavedDesignsGallery.tsx
 check_circle
 src/components/Header.tsx
@@ -164,8 +152,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/utils/exportData.ts
 check_circle
 src/components/ExportDataModal.tsx
@@ -181,8 +167,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 2 files
 src/components/FabricCalculator.tsx
 check_circle
 src/App.tsx
@@ -194,8 +178,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 6 files
 src/types.ts
 check_circle
 src/utils/stashStorage.ts
@@ -215,8 +197,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/PrintPreviewModal.tsx
 check_circle
 src/components/PageOverviewMap.tsx
@@ -229,8 +209,6 @@ check_circl
 summarize_auto
 chevron_right
 
-edit
-Edited 2 files
 src/components/SharePatternModal.tsx
 check_circle
 src/App.tsx
@@ -242,8 +220,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/utils/patternEditor.ts
 check_circle
 src/components/ManualStitchEditor.tsx
@@ -259,8 +235,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 6 files
 src/types.ts
 check_circle
 src/utils/timerStorage.ts
@@ -280,8 +254,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 5 files
 src/types.ts
 check_circle
 src/utils/challengeStorage.ts
@@ -299,8 +271,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 5 files
 src/types.ts
 check_circle
 src/components/MilestoneTracker.tsx
@@ -318,8 +288,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/ThreadShortageChart.tsx
 check_circle
 src/components/MyThreadStash.tsx
@@ -333,8 +301,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 2 files
 src/components/StitchingTechniquesSidebar.tsx
 check_circle
 src/App.tsx
@@ -361,8 +327,6 @@ Add an integrated Pomodoro-style timer to the stitch viewer so users can track t
 summarize_auto
 chevron_right
 
-edit
-Edited 7 files
 src/types.ts
 check_circle
 src/utils/annotationStorage.ts
@@ -384,8 +348,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/FlossLegendTable.tsx
 check_circle
 build
@@ -395,8 +357,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 7 files
 src/components/FlossLegendTable.tsx
 check_circle
 src/components/DesignComparisonModal.tsx
@@ -418,8 +378,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/FabricPreviewCanvas.tsx
 check_circle
 src/components/FabricCalculator.tsx
@@ -433,8 +391,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/components/ShareSavedDesignModal.tsx
 check_circle
 src/components/SavedDesignsGallery.tsx
@@ -447,9 +403,7 @@ Built
 
 summarize_auto
 chevron_right
-
-edit
-Edited 1 file
+    
 src/components/StitchViewer.tsx
 check_circle
 build
@@ -459,8 +413,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/StitchViewer.tsx
 check_circle
 build
@@ -470,8 +422,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/types.ts
 check_circle
 src/components/StitchProgressTracker.tsx
@@ -487,8 +437,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 3 files
 src/types.ts
 check_circle
 src/components/PercentageMilestoneCelebration.tsx
@@ -503,8 +451,7 @@ summarize_auto
 chevron_right
 
 download
-edit
-Edited 3 files
+
 src/utils/gifEncoder.ts
 check_circle
 src/components/SnapshotExportModal.tsx
@@ -518,8 +465,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/StitchViewer.tsx
 check_circle
 build
@@ -528,9 +473,7 @@ Built
 
 summarize_auto
 chevron_right
-
-edit
-Edited 3 files
+    
 src/types.ts
 check_circle
 src/utils/colorMatcher.ts
@@ -542,8 +485,6 @@ check_circl
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/types.ts
 check_circle
 src/utils/colorMatcher.ts
@@ -559,8 +500,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 9 files
 src/types.ts
 check_circle
 src/utils/annotationStorage.ts
@@ -586,8 +525,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 4 files
 src/types.ts
 check_circle
 src/utils/outlineDetector.ts
@@ -601,8 +538,6 @@ check_circle
 summarize_auto
 chevron_right
 
-edit
-Edited 8 files
 src/utils/outlineDetector.ts
 check_circle
 src/components/BackstitchOutlineDrawer.tsx
@@ -626,8 +561,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 2 files
 src/components/MyThreadStash.tsx
 check_circle
 src/components/FlossLegendTable.tsx
@@ -639,8 +572,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 2 files
 src/types.ts
 check_circle
 src/components/StitchViewer.tsx
@@ -662,9 +593,7 @@ Built
 
 summarize_auto
 chevron_right
-
-edit
-Edited 4 files
+    
 src/components/ProgressBackupModal.tsx
 check_circle
 src/App.tsx
@@ -679,9 +608,7 @@ Built
 
 summarize_auto
 chevron_right
-
-edit
-Edited 1 file
+    
 src/components/StitchViewer.tsx
 check_circle
 build
@@ -691,8 +618,6 @@ Built
 summarize_auto
 chevron_right
 
-edit
-Edited 1 file
 src/components/FlossLegendTable.tsx
 check_circle
 build
@@ -702,8 +627,6 @@ Built
 summarize_aut
 chevron_right
 
-edit
-Edited 2 files
 src/types.ts
 check_circle
 src/App.tsx
