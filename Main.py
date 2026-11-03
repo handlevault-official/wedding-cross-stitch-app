@@ -109,7 +109,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -121,7 +120,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -137,7 +135,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -155,7 +152,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -171,7 +167,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -189,7 +184,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
@@ -203,7 +197,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 6 files
@@ -225,7 +218,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -240,7 +232,6 @@ check_circl
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
@@ -254,7 +245,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -272,7 +262,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 6 files
@@ -294,7 +283,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 5 files
@@ -314,7 +302,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 5 files
@@ -334,7 +321,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -350,7 +336,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
@@ -364,7 +349,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 download
 Installed 1 package
@@ -381,7 +365,6 @@ Add an integrated Pomodoro-style timer to the stitch viewer so users can track t
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 7 files
@@ -405,7 +388,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -417,7 +399,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 7 files
@@ -441,7 +422,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -457,7 +437,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -473,7 +452,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -485,7 +463,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -497,7 +474,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -515,7 +491,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -531,7 +506,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 download
 Installed 2 packages
@@ -549,7 +523,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -561,7 +534,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 3 files
@@ -575,7 +547,6 @@ check_circl
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -593,7 +564,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 9 files
@@ -621,7 +591,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -637,7 +606,6 @@ check_circle
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 8 files
@@ -663,7 +631,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
@@ -677,7 +644,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
@@ -691,7 +657,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -703,7 +668,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 4 files
@@ -721,7 +685,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -733,7 +696,6 @@ Built
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 1 file
@@ -745,7 +707,6 @@ Built
 
 summarize_aut
 chevron_right
-Here are key actions taken for the app:
 
 edit
 Edited 2 files
