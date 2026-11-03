@@ -50,7 +50,6 @@ else:
 
 summarize_auto
 chevron_right
-Here are key actions taken for the app:
 
 download
 Installed 3 packages
