@@ -2232,3 +2232,6 @@ Quota limits exceeded
 flag
 Checkpoint
 Add a heatmap visualization mode to the StitchViewer that highlights areas with high stitch density, helping users identify complex sections before they begin.
+# Pansamantalang placeholder sa dulo para mag-run sa Streamlit
+st.write("---")
+st.caption("App setup completed.")
