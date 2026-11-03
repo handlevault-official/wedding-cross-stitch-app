@@ -321,7 +321,7 @@ check_circle
 build
 Built
 # Create an 'Annotation Layer' feature that allows users to add sticky notes, color-coded flags, or custom text markers to specific coordinates in the 'StitchViewer' component.
-Add an integrated Pomodoro-style timer to the stitch viewer so users can track their actual time spent per session, which can then be logged towards their daily streak.
+# Add an integrated Pomodoro-style timer to the stitch viewer so users can track their actual time spent per session, which can then be logged towards their daily streak.
 
 summarize_auto
 chevron_right
