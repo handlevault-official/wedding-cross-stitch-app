@@ -313,8 +313,7 @@ summarize_auto
 chevron_right
 
 download
-edit
-Edited 2 files
+
 src/components/DailyStitchTrendChart.tsx
 check_circle
 src/App.tsx
