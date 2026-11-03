@@ -43,7 +43,7 @@ src/App.tsx
 check_circle
 build
 Built
-Create a calculator within the app that determines the final stitched dimensions of the cross stitch pattern. This calculation should be based on the user's selected AIDA cloth count (e.g., 14, 16, 18) and the chosen grid size (e.g., 300x450, 200x300). Display the result clearly in inches and centimeters
+# Create a calculator within the app that determines the final stitched dimensions of the cross stitch pattern.
 Gemini 3.8 Flash
 Ran for 3m 57s
 
